@@ -1,0 +1,6 @@
+#grid_container{
+  overflow: hidden;
+  display: grid;
+  transition: 200ms ease-in;
+  grid-template-columns: 5vw 95vw;
+}

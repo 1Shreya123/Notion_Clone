@@ -1,0 +1,66 @@
+@import "../../../styles.scss";
+
+#NavFlexContainer{
+  margin-top: 1vh;
+  font-family: 'Yusei Magic', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 99vh;
+  align-items: center;
+  transition: 200ms ease;
+
+  nav{
+    display: none;
+    transition: 200ms ease;
+    font-size: 1.5rem;
+    ul{
+      padding-left: .5rem;
+      list-style: none;
+      li{
+        ul{
+          padding-left: 1.5rem;
+          a{
+            text-decoration: none;
+            color: $darkred;
+          }
+        }
+      }
+    }
+  }
+  
+  .navbutton{
+    font-size: 2.5rem;
+    width: 4vw;
+    color: $darkred;
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: $beige;
+    border: 2px dashed $darkred;
+    transition: 200ms ease;
+  }
+
+  &:hover{
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    background-color: $brown;
+    color: white;
+    ul{
+      li{
+        ul{
+          li{
+            a{
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .navbutton{
+      width: 14vw;
+      background-color: $brown;
+      color: white;
+    }
+    nav{
+      display:contents;
+    }
+  }
+}

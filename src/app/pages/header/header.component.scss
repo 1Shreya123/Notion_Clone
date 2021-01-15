@@ -1,0 +1,14 @@
+@import "../../../styles.scss";
+ 
+header{
+  display: grid;
+  grid-template-rows: 20vh 80vh;
+  h1{
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    border-bottom: 0.1rem solid black;
+  }
+  app-content{
+    border: 2px solid black;
+  }
+}

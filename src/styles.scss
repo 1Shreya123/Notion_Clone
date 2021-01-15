@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+//fonts: 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Yusei+Magic&display=swap');
+
+//color pallete: 
+$brown: #CFBCA4;
+$beige: #F0EADB;
+$mustard: #C99910;
+$darkred: #BE3D3D;
+$darkgreen: #09382F;
+
+:root{
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: $beige;
+  
+}
